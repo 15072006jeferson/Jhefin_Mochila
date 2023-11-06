@@ -1,1 +1,1 @@
-console.log(document.getElementById("novoItem"))
+const fora = document.getElementById("novoItem")
