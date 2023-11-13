@@ -20,5 +20,9 @@ numeroItem.innerHTML = quantidade
 novoItem.appendChild(numeroItem)
 novoItem.innerHTML += nome
 
+const Lista = document.getElementById("Lista")
+
+Lista.appendChild(novoItem)
+
 console.log(novoItem)
 }
