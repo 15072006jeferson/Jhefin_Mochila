@@ -18,4 +18,6 @@ const numeroItem = document.createElement('strong')
 numeroItem.innerHTML = quantidade
 
 console.log(numeroItem)
+
+console.log(novoItem)
 }
