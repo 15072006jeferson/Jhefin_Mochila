@@ -3,7 +3,15 @@ const fora = document.getElementById("novoItem")
 form.addEventListener("submit",(evento) => {
     evento.preventDefault()
 
-    console.log("evento")
-    console.log(evento.target['nome'].value)   
-    console.log(evento.target['quantidade'].value) 
+    console.log  
+    console.log 
+
+    criaElemento(elemento.target.elements['nome'].value,evento.target.elements['quantidade'].value)
 })
+
+
+function criaElemento (nome,quantidade) {
+    console.log(nome)
+    console.log(quantidade)
+
+}
