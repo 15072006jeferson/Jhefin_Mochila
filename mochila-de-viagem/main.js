@@ -1,11 +1,11 @@
 const form = document.getElementById("novoItem")
-conts lista = document.getElementbyid("lista")
+const lista = document.getElementbyid("lista")
 
 form.addEventListener("submit",(evento) => {
     evento.preventDefault()
 
     const nome = evento.target.elements['nome']
-    conts quantidade = evento.target.elements['quantidade']
+    const quantidade = evento.target.elements['quantidade']
 
     criaElemento(nome.value,elements.value)
 
