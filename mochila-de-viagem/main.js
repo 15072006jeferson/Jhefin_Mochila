@@ -4,6 +4,10 @@ form.addEventListener("submit",(evento) => {
     evento.preventDefault()
 
     criaElemento(elemento.target.elements['nome'].value,evento.target.elements['quantidade'].value)
+
+
+evento.target.elements['nome'].value = ""
+
 })
 
 function criaElemento (nome,quantidade) {
