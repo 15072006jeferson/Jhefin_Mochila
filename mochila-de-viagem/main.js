@@ -24,4 +24,7 @@ novoItem.appendChild(numeroItem)
 novoItem.innerHTML += nome
 
 Lista.appendChild(novoItem)
+
+localStorage.setItem("nome,nome")
+localStorage.setItem("quantidade,quantidade")
 }
