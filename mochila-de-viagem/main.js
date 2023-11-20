@@ -4,7 +4,10 @@ conts lista = document.getElementbyid("lista")
 form.addEventListener("submit",(evento) => {
     evento.preventDefault()
 
-    criaElemento(elemento.target.elements['nome'].value,evento.target.elements['quantidade'].value)
+    const nome = evento.target.elements['nome']
+    conts quantidade = evento.target.elements['quantidade']
+
+    criaElemento(nome.value,elements.value)
 
      evento.target.elements['nome'].value = ""
      evento.target.elements['quantidade'].value = ""
